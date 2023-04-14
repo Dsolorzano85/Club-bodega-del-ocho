@@ -107,7 +107,7 @@
     background: #383737;
 }
 video{
-    position: fixed;
+    display: flex;
     min-width: 100%;
     min-height: 25%;
 
@@ -144,8 +144,8 @@ video{
    
 }
 .card img {
-    width: 30%;
-    height: 1100px:
+    width: 10%;
+    height: 75px;
 }
 .main{
     padding-top: 12rem;
