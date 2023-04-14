@@ -8,6 +8,7 @@
     <title>Club Bodega del 8</title>
     <link rel="icon" href="./imagenes/favicon-16x16.png">
     <link rel="stylesheet" href="./Estilos.css">
+  
 
 </head>
 <body>
@@ -18,36 +19,36 @@
     <span class="menu-icon">Menú</span>
     <nav class="navegacion">
       <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Propuesta</a></li>
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#prop">Propuesta</a></li>
         <li><a href="#">Nosotros</a></li>
         <li><a href="#">Socios</a></li>
-        <li><a href="#">Contacto</a></li>
+        <li><a href="#contacto">Contacto</a></li>
       </ul>
     </nav>
   </div>
 </header>
- <br><br>
-
 <main class="main">
       <div class="container">
-      <video src="./videos/video1.mp4" autoplay loop muted></video>
-      </section>
-      <section class="form-floating">
-      <h3>FORMULARIO DE REGISTRO</h3>
-      <label for="floatingName">Nombre y Apellido</label>
-        <input class ="form-control" type="text" id="floatingName" placeholder= "Ingrese su nombre y apellido">
-        <label for="floatingInput">Correo Electrónico</label>
-        <input class ="form-control" type="email"  id="floatingInput" placeholder= "Ingrese su correo electrónico">
-        <label for="floatingPhone">Teléfono</label>
-        <input class ="form-control" type="number"  id="floatingPhone" placeholder= "Ingrese su número de teléfono">
-        <label for="floatingLocation">Localidad</label>
-        <input class ="form-control" type="text"  id="floatingLocation" placeholder= "Ingrese su localidad">
-        <button type="button" class="boton">ENVIAR</button>
-      </section>
-
-    <br><br>
-    <h4>PROPUESTA PARA SOCIOS</h4>
+            <video id="home" src="./videos/video1.mp4" autoplay loop muted></video>
+      </div>
+    
+       <section class="form-floating">
+          <h3 id="contacto">FORMULARIO DE REGISTRO</h3>
+          <label for="floatingName">Nombre y Apellido</label>
+          <input class ="form-control" type="text" id="floatingName" placeholder= "Ingrese su nombre y apellido">
+          <label for="floatingInput">Correo Electrónico</label>
+          <input class ="form-control" type="email"  id="floatingInput" placeholder= "Ingrese su correo electrónico">
+          <label for="floatingPhone">Teléfono</label>
+          <input class ="form-control" type="number"  id="floatingPhone" placeholder= "Ingrese su número de teléfono">
+          <label for="floatingLocation">Localidad</label>
+          <input class ="form-control" type="text"  id="floatingLocation" placeholder= "Ingrese su localidad">
+          <button type="button" class="boton">ENVIAR</button>
+       </section>
+       
+    
+    <br>
+    <h4 id="prop">PROPUESTA PARA SOCIOS</h4><br>
       <h5>RECIBÍ UNA CAJA DE 6 VINOS EXCLUSIVOS
         TODOS LOS MESES EN TU DOMICILIO</h5>
     <div class="container1">
@@ -56,7 +57,7 @@
         <figure>
           <img src="imagenes/botella de vino.png">
         </figure>
-          <div class="contenido"
+          <div class="contenido">
             <h3>ETIQUETAS EXCLUSIVAS</h3>
           <p>Etiquetas Originales de las mejores bodegas de Argentina y exclusivamente creadas para los socios de Único Club de Vinos</p>
           
@@ -67,31 +68,31 @@
         <figure>
           <img src="imagenes/copa de vino.png">
         </figure>
-          <div class="contenido"
+          <div class="contenido">
             <h3>CATAS Y EVENTOS</h3>
           <p>Se parte de Eventos exclusivos para nuestros socios. Degustaciones gratuitas, charlas con enólogos reconocidos y más eventos</p>
           
         </div>
     </div>
       <div class="card">
-        <figure>
-          <img src="imagenes/camion.png">
-        </figure>
-          <div class="contenido"
-            <h3>BONIFICACIONES EN ENVIO</h3>
-          <p>Recibí una caja de seis vinos mensualmente y aprovechá 50% de Descuento en el costo de envío.</p>
-          
-        </div>
-    </div>
-     
-    
-    </div> 
+           <figure>
+            <img src="imagenes/camion.png">
+           </figure>
+            <div class="contenido1">
+                 <h3>BONIFICACIONES EN ENVIO</h3>
+                 <p>Recibí una caja de seis vinos mensualmente y aprovechá 50% de Descuento en el costo de envío.</p>
+             </div>
+      </div> 
 </main>
 
 <footer class="footer">
   <div class="container">
-    <h7>Sitio creado por el Grupo 8</h7>
+    <p>Seguinos en</p>
+    <a href="#"><img src="imagenes/facebook.png" alt="facebook"></a>
+    <a href="#"><img src="imagenes/instagram.png" alt="instagram"></a>
+    
   </div>
+  <p>©Copyright 2023.Todos los derechos reservados.</p>
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
