@@ -162,7 +162,7 @@ video{
     .menu-icon{
         display: block;
         cursor: pointer;
-        padding: 0.5rem; 
+        padding: 0.5rem;
     }
     .navegacion{
         width: 100%;
@@ -190,7 +190,7 @@ video{
         width:400px;
         background: transparent;
         padding: 10px;
-        margin: 25%;
+        margin: 10%;
         margin-top:0px;
         border-radius: 4px;
         font-family:sans-serif;
@@ -231,6 +231,11 @@ video{
     }
     .form-floating label{
         font-size: 15px;
+    }
+    .header .Logo{
+        font-size: 100%;
+        display: flexbox;
+        flex-wrap: wrap;
     }
   
     }
