@@ -160,13 +160,15 @@ video{
 }
 @media only screen and (max-width: 767px){
     .menu-icon{
-        display: block;
+        display: flex;
         cursor: pointer;
         padding: 0.5rem;
+        position: absolute;
     }
     .navegacion{
         width: 100%;
-        margin-top: 10px;
+        margin-top: 80px;
+        padding-bottom: 5px;
     }
     .navegacion ul{
         display: none;
@@ -185,6 +187,10 @@ video{
     }
     .navegacion ul li a:hover{
         background: #383737;
+    }
+    .header{
+        padding-top: 5px;
+        padding-bottom: 0%;
     } 
     .form-floating {
         width:400px;
@@ -236,6 +242,13 @@ video{
         font-size: 20px;
         display: flex;
         flex-wrap: wrap;
+    }
+    br{
+        ;
+    }
+    h4{
+        display:grid;
+        position: relative;
     }
   
     }
