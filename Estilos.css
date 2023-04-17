@@ -243,9 +243,6 @@ video{
         display: flex;
         flex-wrap: wrap;
     }
-    br{
-        ;
-    }
     h4{
         display:grid;
         position: relative;
