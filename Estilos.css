@@ -151,7 +151,24 @@ video{
     height: 75px;
 }
 .main{
-    padding-top: 7rem;
+    padding-top: 10rem;
+}
+#nosotros{
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#nosotros.contenido{
+    justify-content: center;
+    text-align: right;
+}
+.brindis{
+    position: relative;
+    left: 700px;
+    top: 0%;
 }
 .footer{
     background: #747272;
@@ -242,9 +259,6 @@ video{
         font-size: 20px;
         display: flex;
         flex-wrap: wrap;
-    }
-    br{
-        ;
     }
     h4{
         display:grid;
