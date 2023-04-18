@@ -176,7 +176,42 @@ video{
     padding: left 50px;
     z-index: -2;
 }
-
+.socios{
+    box-sizing: border-box;
+    background-color: #BB5D5E;
+}
+.socios h2{
+    padding-top: 40px;
+}
+.socios .contenido1 img{
+    margin-left: 100px;
+    border-radius: 50%;
+    position: absolute;
+}
+.socios .contenido1 p{
+    color: white;
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    margin-left: 30%;
+    margin-right: 10%;
+    padding-top: 2%;
+}
+.socios .contenido2 img{
+    margin-left: 100px;
+    margin-top: 80px;
+    border-radius: 50%;
+    position: absolute;
+}
+.socios .contenido2 p{
+    color: white;
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    margin-left: 30%;
+    margin-right: 10%;
+    padding-top: 8%
+}
 .footer{
     background: #747272;
     padding: 1rem 0;
