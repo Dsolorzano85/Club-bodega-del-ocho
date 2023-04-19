@@ -160,12 +160,13 @@ video{
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    margin-left: 50px;
+    margin-left: 30px;
     padding-left: 10px;
 }
 #nosotros.contenido{
     justify-content:baseline;
     text-align: center;
+    
 }
 .brindis{
     width: 75%;
@@ -175,6 +176,7 @@ video{
     padding: left 50px;
     z-index: -2;
 }
+
 .footer{
     background: #747272;
     padding: 1rem 0;
