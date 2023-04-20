@@ -49,7 +49,7 @@ body{
     font-size: 1.2rem;
     line-height: 1.4em;
     margin: 0;
-    background-color: #ebf06294;
+    background-color: #f5f5ec9c;
     /* width: 100%;
     height: 100vh;
     display: flex;
@@ -151,7 +151,7 @@ video{
     height: 75px;
 }
 .main{
-    padding-top: 10rem;
+    padding-top: 16rem;
 }
 #nosotros{
     width: 100%;
@@ -176,7 +176,120 @@ video{
     padding: left 50px;
     z-index: -2;
 }
+.contact_form{  
+    width: 460px; 
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    padding-left: 30px; 
+    background-color: #6f867baf;
+    
+  }
+  
+  
+  input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 30px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #332b31;
+    margin-top: 5px;  
+    padding-left: 10px;
+    margin-bottom: 10px; 
+  }
+  
+  
+  textarea{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 90px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #332b31; 
+    margin-top: 5px;  
+    padding-left: 10px;
+    margin-bottom: 10px; 
+    padding-top: 10px; 
+  }
+  
+  
+  label{
+    display: block; 
+    float: center;
 
+  }
+  
+  
+  button{
+    height: 35px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: #09420293; 
+   
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 408px;   
+    cursor: pointer;
+  }
+  
+  
+  button p{
+    color: #fff; 
+  }
+  
+  
+  span{
+    color: #ad1818; 
+  }
+  
+  
+  .aviso{
+    font-size: 13px;  
+    color: #0e0e0e;  
+  }
+  
+  
+  h1{
+    font-size: 39px;  
+    text-align: center; 
+    padding-bottom: 20px; 
+    color: #09420293;
+    line-height: 30px;
+  }
+  
+  
+  h3{
+    font-size: 14px; 
+    padding-bottom: 30px;
+    color: #0e0e0e;   
+  }
+  
+  
+  p{
+    font-size: 16px; 
+    color: #0a0a0a; 
+  }
+ 
+  
+  .formulario input:focus{
+    outline:0;
+    border: 1px solid #97d848;
+  }
+  
+  
+  .formulario textarea:focus{
+    outline:0;
+    border: 1px solid #97d848;
+  }
+  
 .footer{
     background: #747272;
     padding: 1rem 0;
