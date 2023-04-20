@@ -156,7 +156,7 @@ video{
 #nosotros{
     width: 100%;
     display: flex;
-    max-width: 5000px;
+    max-width: 790px;
     justify-content: center;
     align-items: center;
     flex-direction: row;
@@ -165,11 +165,11 @@ video{
 }
 #nosotros.contenido{
     justify-content:baseline;
-    text-align: center;
+    text-align: justify;
     
 }
 .brindis{
-    width: 75%;
+    width: 30%;
     position: relative;
     left: 100px;
     top: 0%;
@@ -196,6 +196,7 @@ video{
     margin-left: 30%;
     margin-right: 10%;
     padding-top: 2%;
+    font-size: 16px;
 }
 .socios .contenido2 img{
     margin-left: 100px;
@@ -210,8 +211,10 @@ video{
     justify-content: flex-end;
     margin-left: 30%;
     margin-right: 10%;
-    padding-top: 8%
-}.contact_form{  
+    padding-top: 8%;
+    font-size: 16px;
+}
+.contact_form{  
     width: 460px; 
     height: auto;
     margin: 80px auto;
