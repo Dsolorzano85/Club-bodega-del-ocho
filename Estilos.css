@@ -161,12 +161,24 @@ video{
     align-items: center;
     flex-direction: row;
     margin-left: 30px;
-    padding-left: 10px;
+    padding-left: 20px;
+    column-gap: 30px;    
+   }
+   .contenido1{
+    justify-content:baseline;
+    text-align: justify;    
 }
-#nosotros.contenido{
+.contenido2{
     justify-content:baseline;
     text-align: justify;
-    
+}
+.quienesomos{
+    justify-content:baseline;
+    text-align: center;
+}
+.quebuscamos{
+    justify-content:baseline;
+    text-align: center;
 }
 .brindis{
     width: 30%;
